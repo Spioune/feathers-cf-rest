@@ -11,11 +11,9 @@ It exposes your feathers services as a RESTful API.
 $ npm i feathers-cf-rest
 ```
 
-> **Important:** `feathers-cf-durable` implements the [Feathers Common database adapter API](https://docs.feathersjs.com/api/databases/common.html) and [querying syntax](https://docs.feathersjs.com/api/databases/querying.html).
-
 ## Example
 
-Here is an example of a Feathers application running on Cloudflare Workers with a `messages` service:
+Here is an example of a Feathers application running on Cloudflare Workers with a dummy `messages` service:
 
 ```
 $ npm i @feathersjs/feathers@pre feathers-cf-rest itty-router
