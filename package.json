@@ -1,6 +1,6 @@
 {
 	"name": "feathers-cf-rest",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A feathers transport that exposes your services as a RESTful API on Cloudflare Workers",
 	"main": "lib/",
 	"keywords": [
