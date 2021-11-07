@@ -1,0 +1,34 @@
+{
+	"name": "feathers-cf-rest",
+	"version": "0.0.1",
+	"description": "A feathers transport that exposes your services as a RESTful API on Cloudflare Workers",
+	"main": "lib/",
+	"keywords": [
+		"feathers",
+		"feathers-plugin",
+		"cloudflare",
+		"rest",
+		"api"
+	],
+	"scripts": {
+		"publish": "git push origin --tags",
+		"release:patch": "npm version patch && npm publish",
+		"release:minor": "npm version minor && npm publish",
+		"release:major": "npm version major && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Spioune/feathers-cf-rest.git"
+	},
+	"author": "Spioune",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Spioune/feathers-cf-rest/issues"
+	},
+	"homepage": "https://github.com/Spioune/feathers-cf-rest#readme",
+	"dependencies": {
+		"@feathersjs/feathers": "^5.0.0-pre.14",
+		"@feathersjs/transport-commons": "^5.0.0-pre.14",
+		"itty-router": "^2.4.4"
+	}
+}
